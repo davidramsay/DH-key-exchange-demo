@@ -8,3 +8,7 @@ This creates a secure shared key.
 
 This example uses simple multiplication and prime numbers, however real DH key exchanges use more complex mathematics based on modular arithmetic, and share a common primitive root and "generator".
 The math is significantly more complicated.
+
+to make this work, simply upload "bobsMicroBit" to one micro:bit, and "alicesMicroBit" to another, and power them on. 
+
+The boards will display their private key (a small prime number), then they will transact their key exchange, and display their shared key.
